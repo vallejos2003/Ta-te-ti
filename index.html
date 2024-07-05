@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ta-Te-Ti con Preguntas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Ta-Te-Ti con Preguntas</h1>
+        <table class="table table-bordered text-center">
+            <tr>
+                <td data-cell-index="0"></td>
+                <td data-cell-index="1"></td>
+                <td data-cell-index="2"></td>
+            </tr>
+            <tr>
+                <td data-cell-index="3"></td>
+                <td data-cell-index="4"></td>
+                <td data-cell-index="5"></td>
+            </tr>
+            <tr>
+                <td data-cell-index="6"></td>
+                <td data-cell-index="7"></td>
+                <td data-cell-index="8"></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Modal para Preguntas -->
+    <div id="questionModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Pregunta</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="questionText"></p>
+                    <div id="answers"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

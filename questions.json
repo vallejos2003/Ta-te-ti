@@ -1,0 +1,16 @@
+[
+    {
+        "Pregunta": "¿Cuál es la capital de Francia?",
+        "Respuesta1": "Madrid",
+        "Respuesta2": "París",
+        "Respuesta3": "Berlín",
+        "Verdadera": 2
+    },
+    {
+        "Pregunta": "¿Cuál es el río más largo del mundo?",
+        "Respuesta1": "Nilo",
+        "Respuesta2": "Amazonas",
+        "Respuesta3": "Misisipi",
+        "Verdadera": 2
+    }
+]
